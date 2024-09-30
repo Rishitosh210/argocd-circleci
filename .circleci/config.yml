@@ -95,6 +95,7 @@ jobs:
             git add manifests/kustomization.yaml
             git commit -am "Bumps docker tag [skip ci]"
             git push origin $CIRCLE_BRANCH
+            
 
 workflows:
   Deploy-App-on-AKS:
